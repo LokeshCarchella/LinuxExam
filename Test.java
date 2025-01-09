@@ -6,8 +6,12 @@ public class Test {
         
         // Add the two numbers
         int sum = num1 + num2;
+
+        // Multiply two numbers
+        int prod = num1*num2;
         
         // Print the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The prod of " + num1 + "and" +num2 +"is :" + prod);
     }
 }
